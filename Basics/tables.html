@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tables</title>
+<style>
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+
+
+</style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Movie Name</th>
+            <th>Hero</th>
+            <th>Director</th>
+        </tr>
+        <tr>
+            <td>RRR</td>
+            <td>RamChaaran, NTR</td>
+            <td>Rajamouli</td>
+        </tr>
+        <tr>
+            <td>KGF</td>
+            <td>Yash</td>
+            <td>Prashanth Neel</td>
+        </tr>
+        <tr>
+            <td>Vikram</td>
+            <td>Kamal Hassan</td>
+            <td>Lokesh Kanagaraj</td>
+        </tr>
+    </table>
+    <hr>
+    <!--Colspan="2"-->
+    <h4>Colspan</h4>
+    <table>
+        <caption>Movie Table</caption>
+        <tr>
+            <th>Movie Name</th>
+            <th colspan="2">Cast</th>
+        </tr>
+        <tr>
+            <td>RRR</td>
+            <td>RamChaaran, NTR</td>
+            <td>Rajamouli</td>
+        </tr>
+        <tr>
+            <td>KGF</td>
+            <td>Yash</td>
+            <td>Prashanth Neel</td>
+        </tr>
+        <tr>
+            <td>Vikram</td>
+            <td>Kamal Hassan</td>
+            <td>Lokesh Kanagaraj</td>
+        </tr>
+    </table>
+    <hr>
+     <!--Rowspan="2"-->
+     <h4>Rowspan</h4>
+     <table>
+        <caption>Movie Table</caption>
+        <tr>
+            <th>Movie Name</th>
+            <td>RRR</td>
+            <td>KGF</td>
+            <td>Vikram</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Cast</th>
+            <td>RamChaaran, NTR</td>
+            <td>Yash</td>
+            <td>Kamal Hassan</td>
+        </tr>
+        
+        <tr>    
+            <td>Rajamouli</td>
+            <td>Prashanth Neel</td>
+            <td>Lokesh Kanagaraj</td>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
